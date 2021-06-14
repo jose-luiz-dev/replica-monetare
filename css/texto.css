@@ -1,0 +1,113 @@
+
+/**
+*
+*   TITULO
+*
+*/
+.title-1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.title-2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.title-3 {
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+.title-4 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.title-5 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.title-6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/**
+*
+*   TEXTO
+*
+*/
+.text-0 {
+    font-size: 0.8rem;
+}
+.text-1 {
+    font-size: 1.0rem;
+}
+.text-2 {
+    font-size: 1.2rem;
+}
+.text-3 {
+    font-size: 1.4rem;
+}
+.text-4 {
+    font-size: 1.6rem;
+}
+.text-5 {
+    font-size: 1.8rem;
+}
+.text-6 {
+    font-size: 2.0rem;
+}
+
+/**
+*
+*   COR DA FONTE
+*
+*/
+.gray {
+    color: gray;
+}
+.orange {
+    color: darkorange;
+}
+.blue {
+    color: navy;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+
+/**
+*
+*   ALINHAMENTO
+*
+*/
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+/**
+*
+*   ESTILO DA FONTE
+*
+*/
+.bolder{
+    font-weight: bolder;
+}
+
+.lighter{
+    font-weight: lighter;
+}
+
+.italic {
+    font-style: italic;
+}
+
+link {
+    text-decoration: none;
+}
+
+

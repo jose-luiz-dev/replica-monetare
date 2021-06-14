@@ -6,219 +6,337 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/texto.css">
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
+    <link rel="stylesheet" type="text/css" href="css/blocos.css">
+    <link rel="stylesheet" type="text/css" href="css/componentes.css">
     <title>Monetare | Soluções Financeiras</title>
 </head>
 
-<body>
-    <header>
-        <a href=""><img src="img/logo_branco.201ab37c.png" style="background-color: navy; color: #FFF; padding: 20px;"></a>
-        <h1></h1>
-        <menu>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li>Produtos
+<body class="box-content">
+    <div class="container-sm">
+        <header class="row mb-5">
+            <div class="col-3">
+                <a href=""><img src="img/logo_branco.201ab37c.png" class="logo"></a>
+            </div>
+            <div class="col-9">
+                <nav id="nav" role="navigation" class="text-1">
+                    <a href="#nav" title="Show navigation"><i class="fas fa-bars"></i></a>
+                    <a href="#" title="Hide navigation"><i class="fas fa-times"></i></a>
                     <ul>
-                        <li><a href="cgi.html">Conheça o CGI</a></li>
-                        <li><a href="cgv.html">Conheça o CGV</a></li>
-                        <li><a href="financiamento.html">Financiamento</a></li>
-                        <li><a href="emergencial.html">Crédito emergencial</a></li>
-                        <li><a href="regularizacao.html">Reg. Fundiária</a></li>
+                        <li><a href="/">Início</a></li>
+                        <li>
+                            <a href="/" aria-haspopup="true">Produtos</a>
+                            <ul>
+                                <li><a href="cgi.html">Conheça o CGI</a></li>
+                                <li><a href="cgv.html">Conheça o CGV</a></li>
+                                <li><a href="financiamento.html">Financiamento</a></li>
+                                <li><a href="emergencial.html">Crédito emergencial</a></li>
+                                <li><a href="regularizacao.html">Reg. Fundiária</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sobre.html">A Monetare</a></li>
+                        <li><a href="parceiro.html">Seja Parceiro</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                        <li>
+                            <a href="/" aria-haspopup="true">Minha Monetare</a>
+                            <ul>
+                                <li><a href="#">Cliente</a></li>
+                                <li><a href="#">Parceiro</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                <li><a href="sobre.html">A Monetare</a></li>
-                <li><a href="parceiro.html">Seja Parceiro</a></li>
-                <li><a href="contato.html">Fale Conosco</a></li>
-                <li><button>Minha Monetare</button>
+                </nav>
+                <!--
+                <menu class="menu">
                     <ul>
-                        <li><a href="#">Cliente</a></li>
-                        <li><a href="#">Parceiro</a></li>
+                        <li><a href="index.html">Início</a></li>
+                        <li>Produtos
+                            <ul>
+                                <li><a href="cgi.html">Conheça o CGI</a></li>
+                                <li><a href="cgv.html">Conheça o CGV</a></li>
+                                <li><a href="financiamento.html">Financiamento</a></li>
+                                <li><a href="emergencial.html">Crédito emergencial</a></li>
+                                <li><a href="regularizacao.html">Reg. Fundiária</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="sobre.html">A Monetare</a></li>
+                        <li><a href="parceiro.html">Seja Parceiro</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                        <li><button>Minha Monetare</button>
+                            <ul>
+                                <li><a href="#">Cliente</a></li>
+                                <li><a href="#">Parceiro</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-
-            </ul>
-        </menu>
-    </header>
-    <main>
-        <section>
-            <div>
-                <h2>
-                    REGULARIZE SEU
-                    IMÓVEL COM 25%
-                    DE DESCONTO
-                </h2>
-                <p>
-                    Com a Monetare, você garante desconto para
-
-                    quitar o seu imóvel, além de crédito extra
-
-                    para outras despesas.
-                </p>
+                </menu>-->
             </div>
-            <div>
-                <p>Consulte nossas opções:</p>
-                <div>
-                    <h3>Crédito com Garantia de Imóvel</h3>
-                    <p>De R$ 30 mil a R$ 5 milhões
-                        Juros a partir de 0,75% ao mês</p>
-                    <a href="#"><button>Fazer Simulação</button></a>
+        </header>
+        <main>
+            <section class="mb-5">
+                <div class="mb-5">
+                    <h1 class="title-1 orange">
+                        REGULARIZE SEU<br>
+                        IMÓVEL COM 25%<br>
+                        DE DESCONTO
+                    </h1>
+                    <p class="text-2">Com a Monetare, você garante desconto para</p>
+                    <p class="text-2">quitar o seu imóvel, além de crédito extra</p>
+                    <p class="text-2">para outras despesas.</p>
                 </div>
-                <div>
-                    <h3>Crédito com Garantia de Veículo</h3>
-                    <p>De R$ 2 mil a R$ 300 mil
-                        Juros a partir de 1,30% ao mês</p>
-                    <a href="#"><button>Fazer Simulação</button></a>
-                </div>
-                <div>
-                    <h3>Regularização Fundiária Terracap</h3>
-                    <p>A partir de R$ 50 mil
-                        Juros a partir de 0,71% ao mês</p>
-                    <a href="#"><button>Fazer Simulação</button></a>
-                </div>
-                <div>
-                    <h3>Financiamento Imobiliário Monetare</h3>
-                    <p>A partir de R$ 30 mil
-                        Juros a partir de 0,51% ao mês</p>
-                    <a href="#"><button>Fazer Simulação</button></a>
-                </div>
-            </div>
-            <div>
-                <article>
-                    <dl>
-                        <!-- LISTA DE DEFINIÇÕES -->
-                        <h2>COMO FUNCIONA?</h2>
-                        <h3>Veja o passo a passo Monetare.</h3>
-                        <span>1º</span>
-                        <dt>Cadastro na plataforma</dt>
-                        <dd>Preencha um único cadastro e tenha sua proposta enviada a diversas instituições.</dd>
-                        <span>2º</span>
-                        <dt>Dados da proposta</dt>
-                        <dd>Informe os dados da garantia.</dd>
-                        <span>3º</span>
-                        <dt>Envio de documentos</dt>
-                        <dd>Encaminhe a documentação necessária para continuarmos a busca pelo melhor crédito.</dd>
-                        <span>4º</span>
-                        <dt>Formalização</dt>
-                        <dd>É nesse momento que iremos fazer a avaliação da sua garantia.</dd>
-                        <span>5º</span>
-                        <dt>Liberação</dt>
-                        <dd>Tudo certo! A garantia foi registrada e perfil alinhado, hora de receber o crédito na conta.
-                        </dd>
-                    </dl>
-                    <img src="img/Sssssss2234cene-16123.fw_-2.png">
-                </article>
-            </div>
-            <div>
-                <aside>
-                    <img src="img/monetarelogord.png">
-                    <p>Super rápido<br>
-                        Como deve ser!</p>
-                    <div>
-                        <p>Agilidade.<br>
-                            Sabemos que tempo é algo precioso. Por isso, trabalhamos de maneira célere e descomplicada.
-                        </p>
+                <div class="block pb-5">
+                    <p class="text-3 text-center">Consulte nossas opções:</p>
+                    <div class="row">
+                        <div class="col-sm-6 col-xl-3">
+                            <div class="card">
+                                <p class="title-4 orange">Crédito com<br> Garantia de<br><span
+                                        class="blue">Imóvel</span></p>
+                                <hr class="divisor">
+                                <p class="text-1 gray">De <span class="bolder">R$ 30 mil</span> a <span
+                                        class="bolder">R$ 5 milhões</span></p>
+                                <p class="text-1 gray">Juros a partir de 0,75% ao mês</p>
+                                <button class="button"><span class="orange">►</span> Fazer Simulação</button>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-xl-3">
+                            <div class="card">
+                                <p class="title-4 orange">Crédito com<br> Garantia de <br><span
+                                        class="blue">Veículo</span></p>
+                                <hr class="divisor">
+                                <p class="text-1 gray">De <span class="bolder">R$ 2 mil</span> a <span
+                                        class="bolder"></span>R$ 300 mil</span>
+                                <p class="text-1 gray">Juros a partir de 1,30% ao mês</p>
+                                <button class="button"><span class="orange">►</span>Fazer Simulação</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-3">
+                            <div class="card">
+                                <p class="title-4 orange">Regularização<br> Fundiária <br><span
+                                        class="blue">Terracap</span></p>
+                                <hr class="divisor">
+                                <p class="text-1 gray">A partir de <span class="bolder">R$ 50 mil</span>
+                                <p class="text-1 gray">Juros a partir de 0,71% ao mês</p>
+                                <button class="button"><span class="orange">►</span>Fazer Simulação</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xl-3">
+                            <div class="card">
+                                <p class="title-4 blue">Financiamento<br><span class="orange">Imobiliário<br>
+                                        Monetare</span></p>
+                                <hr class="divisor">
+                                <p class="text-1 gray">A partir de <span class="bolder">R$ 30 mil</span>
+                                <p class="text-1 gray">Juros a partir de 0,51% ao mês</p>
+                                <button class="button"><span class="orange">►</span>Fazer Simulação</button>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>Transparente.<br>
-                            Buscamos explicar todas as fases, cláusulas e condições com clareza aos nossos clientes.</p>
+                </div>
+                <div class="mb-5">
+                    <article class="row">
+                        <dl class="col-sm-12 col-lg-6">
+                            <!-- LISTA DE DEFINIÇÕES -->
+                            <h2 class="title-4 orange lighter">COMO FUNCIONA?</h2>
+                            <p class="title-2 blue pb-3">Veja o passo a<br> passo Monetare.</p>
+                            <div>
+                                <div class="row pb-4">
+                                    <div class="col-2">
+                                        <p class="text-right"><span class="title-6 circle">1º</span></p>
+                                    </div>
+                                    <div class="col-10">
+                                        <div class=row>
+                                            <dt class="title-4 orange">Cadastro na plataforma</dt>
+                                            <dd class="text-2 gray">Preencha um único cadastro e tenha sua proposta
+                                                enviada a diversas
+                                                instituições.</dd>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4">
+                                    <div class="col-2">
+                                        <p class="text-right"><span class="title-6 circle">2º</span></p>
+                                    </div>
+                                    <div class="col-10">
+                                        <div class=row>
+                                            <dt class="title-4 orange">Dados da proposta</dt>
+                                            <dd class="text-2 gray">Informe os dados da garantia.</dd>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4">
+                                    <div class="col-2">
+                                        <p class="text-right"><span class="title-6 circle">3º</span></p>
+                                    </div>
+                                    <div class="col-10">
+                                        <div class=row>
+                                            <dt class="title-4 orange">Envio de documentos</dt>
+                                            <dd class="text-2 gray">Encaminhe a documentação necessária para
+                                                continuarmos a busca pelo melhor
+                                                crédito.</dd>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4">
+                                    <div class="col-2">
+                                        <p class="text-right"><span class="title-6 circle">4º</span></p>
+                                    </div>
+                                    <div class="col-10">
+                                        <div class=row>
+                                            <dt class="title-4 orange">Formalização</dt>
+                                            <dd class="text-2 gray">É nesse momento que iremos fazer a avaliação da sua
+                                                garantia.</dd>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pb-4">
+                                    <div class="col-2">
+                                        <p class="text-right"><span class="title-6 circle">5º</span></p>
+                                    </div>
+                                    <div class="col-10">
+                                        <div class=row>
+                                            <dt class="title-4 orange">Liberação</dt>
+                                            <dd class="text-2 gray">Tudo certo! A garantia foi registrada e perfil
+                                                alinhado, hora de receber o
+                                                crédito na
+                                                conta.</dd>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </dl>
+                        <div class="col-sm-12 col-lg-6">
+                            <img src="img/Sssssss2234cene-16123.fw_-2.png" class="img centralizado">
+                        </div>
+                    </article>
+                </div>
+                <div class="mb-5">
+                    <aside class="row">
+                        <div class="col-xs-6 col-md-3">
+                            <img src="img/monetarelogord.png" class="img">
+                            <p class="title-4"><span class="gray lighter italic">Super rápido</span><br>
+                                <span class="orange">Como deve ser!</span>
+                            </p>
+                        </div>
+                        <div class="col-xs-6 col-md-3 divisor-left">
+                            <p class="title-4 blue">Agilidade<span class="orange">.</span></p>
+                            <p class="text-1 gray">Sabemos que tempo é algo precioso. Por isso, trabalhamos de maneira
+                                célere e
+                                descomplicada.
+                            </p>
+                        </div>
+                        <div class="col-xs-6 col-md-3 divisor-left">
+                            <p class="title-4 blue">Transparente<span class="orange">.</span></p>
+                            <p class="text-1 gray">Buscamos explicar todas as fases, cláusulas e condições com clareza
+                                aos nossos clientes.
+                            </p>
+                        </div>
+                        <div class="col-xs-6 col-md-3 divisor-left">
+                            <p class="title-4 blue">Digital<span class="orange">.</span></p>
+                            <p class="text-1 gray"> Proporcionamos comodidade ao cuidar da sua operação de modo online.
+                                Estaremos conectados durante todo o processo.</p>
+                        </div>
+                    </aside>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-7">
+                        <p class="title-5 orange">A escolha certa para lhe trazer tranquilidade!</p>
+                        <h2 class="title-2 blue">Nossa missão é<br>facilitar sua vida.</h2>
+                        <img src="img/diver.png" class="mb-4">
+
+                        <p class="text-1 gray">A Monetare Soluções Financeiras, é uma plataforma de concessão de crédito
+                            que tem por objetivo
+                            auxiliar
+                            a realização de sonhos, por meio do Crédito com Garantia ou de um financiamento.</p>
+
+                        <p class="text-1 gray">Viabilizamos a execução de projetos pessoais e profissionais, buscando
+                            beneficiar nossos clientes
+                            com
+                            as
+                            melhores alternativas e condições do mercado.</p>
                     </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-5">
+                    <img src="img/monetarelogord.png" class="little-logo">
+                    <p>
                     <div>
-                        <p>Digital.<br>
-                            Proporcionamos comodidade ao cuidar da sua operação de modo online. Estaremos conectados
-                            durante
-                            todo o processo.</p>
+                        <span><i class="fab fa-facebook-f"></i></span>
+                        <span><i class="fab fa-linkedin-in"></i></span>
+                        <span><i class="fab fa-instagram"></i></span>
                     </div>
-                </aside>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-3  mb-5 divisor-left">
+                    <p class="title-5 blue">Fale Conosco</p><br>
+                    <p class="text-2 orange">(61) 98596-5636</p>
+                    <p class="text-0 gray">Contate-nos também via WhatsApp.</p><br>
+                    <p class="text-2 orange">(61) 3142-0032</p>
+                    <p class="text-0 gray">Capital e regiões metropolitanas</p><br>
+                    <p class="text-1 bolder gray">E-mail:</p>
+                    <p class="text-0">contato@monetare.com.br</p>
+                </div>
+                <div class="col-sm-6 col-md-3  mb-5 divisor-left">
+                    <p class="title-5 blue">Atendimento</p><br>
+                    <p class="text-1 gray">Você pode entrar em contato conosco sempre que achar necessário.</p><br>
+                    <p class="text-1 gray">De <span class="bolder"> segunda a sexta-feira,</span><br>
+                            das <span class="bolder">8h às 19h</span> e aos sábados,<br>
+                            das <span class="bolder">9h às 12h</span>, exceto feriados.</p>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-5 divisor-left">
+                    <p class="title-5 blue">Institucional</p><br>
+                    <ul>
+                        <a href="privacidade.html">
+                            <li>› Política de Privacidade</li>
+                        </a>
+                        <a href="termos.html">
+                            <li>› Termos de Uso</li>
+                        </a>
+                        <a href="#">
+                            <li>› Acesse o Blog Monetare</li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3>A escolha certa para lhe trazer tranquilidade!</h3>
-                <h2>Nossa missão é facilitar sua vida.</h2>
-                <img src="img/diver.png">
+            <hr class="divisor">
+            <div class="col-12">
+                <p class="text-0">A Monetare é uma plataforma digital que atua como correspondente bancário, com o intuito de facilitar
+                    a
+                    contratação de empréstimos e financiamentos, seguindo as diretrizes do Banco Central do Brasil, nos
+                    termos
+                    da Resolução nº 3954 /11. A Monetare Soluções Financeiras SA. está registrada sob o CNPJ/MF
+                    32.295.379/0001-09, com sede em SIG Quadra 1, nº 985, Salas nº 96, 97 E 98, Setor de Industrias
+                    Gráficas,
+                    BRASÍLIA/DF – CEP: 70.610-410</p>
 
-                <p>A Monetare Soluções Financeiras, é uma plataforma de concessão de crédito que tem por objetivo
-                    auxiliar
-                    a realização de sonhos, por meio do Crédito com Garantia ou de um financiamento.</p>
+                <p class="text-0">Informações adicionais relativas ao Empréstimo com Garantia de Automóvel: mínimo 18 meses e máximo 60
+                    meses e
+                    taxas a partir de 1,49% ao mês – Empréstimo com Garantia de Imóvel: mínimo 36 meses e máximo 240
+                    meses.
+                    Exemplo com Garantia de Imóvel – Empréstimo de R$ 100.000,00 para pagar em 15 anos (180 meses) –
+                    Prestação
+                    inicial de R$1.614,54, com uma taxa de juros de 0,89% ao mês + IPCA, Sistema de Amortização Price.
+                    As
+                    tarifas, os parâmetros e os prazos dos produtos poderão ser alterados, sem aviso prévio, devido às
+                    características do mercado e da política de crédito das Instituições Financeiras. A efetivação da
+                    operação e
+                    da taxa encontra-se sujeita à análise e aprovação.</p>
 
-                <p>Viabilizamos a execução de projetos pessoais e profissionais, buscando beneficiar nossos clientes com
-                    as
-                    melhores alternativas e condições do mercado.</p>
-            </div>
-        </section>
-
-    </main>
-    <footer>
-        <div>
-            <img src="img/monetarelogord.png">
-            <p>
-            <div>
-                <span><i class="fab fa-facebook-f"></i></span>
-                <span><i class="fab fa-linkedin-in"></i></span>
-                <span><i class="fab fa-instagram"></i></span>
-            </div>
-            </p>
-        </div>
-        <div>
-            <p>
-                <span>
-                    <h3>Fale Conosco</h3>
-                </span>
-                <span>(61) 98596-5636</span><br>
-                <span>Contate-nos também via WhatsApp.</span><br>
-                <span>(61) 3142-0032</span><br>
-                <span>Capital e regiões metropolitanas</span><br>
-                <span>E-mail:</span><br>
-                <span>contato@monetare.com.br</span>
-            </p>
-        </div>
-        <div>
-            <p>
-                <span>
-                    <h3>Atendimento</h3>
-                </span>
-                <span>
-                    <p>Você pode entrar em contato conosco sempre que achar necessário.</p>
-                </span>
-                <span>
-                    <p>De segunda a sexta-feira,<br>
-                        das 8h às 19h e aos sábados,<br>
-                        das 9h às 12h, exceto feriados.</p>
-                </span>
-            </p>
-        </div>
-        <div>
-            <span>
-                <h3>Institucional</h3>
-            </span>
-            <ul>
-                <a href="#">
-                    <li>Política de Privacidade</li>
-                </a>
-                <a href="#">
-                    <li>Termos de Uso</li>
-                </a>
-                <a href="#">
-                    <li>Acesse o Blog Monetare</li>
-                </a>
-            </ul>
-        </div>
-        <p>A Monetare é uma plataforma digital que atua como correspondente bancário, com o intuito de facilitar a
-            contratação de empréstimos e financiamentos, seguindo as diretrizes do Banco Central do Brasil, nos termos
-            da Resolução nº 3954 /11. A Monetare Soluções Financeiras SA. está registrada sob o CNPJ/MF
-            32.295.379/0001-09, com sede em SIG Quadra 1, nº 985, Salas nº 96, 97 E 98, Setor de Industrias Gráficas,
-            BRASÍLIA/DF – CEP: 70.610-410</p>
-
-        <p>Informações adicionais relativas ao Empréstimo com Garantia de Automóvel: mínimo 18 meses e máximo 60 meses e
-            taxas a partir de 1,49% ao mês – Empréstimo com Garantia de Imóvel: mínimo 36 meses e máximo 240 meses.
-            Exemplo com Garantia de Imóvel – Empréstimo de R$ 100.000,00 para pagar em 15 anos (180 meses) – Prestação
-            inicial de R$1.614,54, com uma taxa de juros de 0,89% ao mês + IPCA, Sistema de Amortização Price. As
-            tarifas, os parâmetros e os prazos dos produtos poderão ser alterados, sem aviso prévio, devido às
-            características do mercado e da política de crédito das Instituições Financeiras. A efetivação da operação e
-            da taxa encontra-se sujeita à análise e aprovação.</p>
-
-        <p>ATENÇÃO: NÃO faça nenhum depósito ou pagamento para simulação, análise ou liberação de empréstimo. A Monetare
-            Soluções Financeiras sempre estará disponível para solucionar qualquer dúvida que possa ter. Nosso serviço é
-            gratuito, portanto nós nunca iremos pedir pagamentos antecipados. Você só vai pagar seu empréstimo ou
-            financiamento, diretamente para a Instituição Financeira, após receber o crédito.</p>
-    </footer>
+                <p class="text-0">ATENÇÃO: NÃO faça nenhum depósito ou pagamento para simulação, análise ou liberação de empréstimo. A
+                    Monetare
+                    Soluções Financeiras sempre estará disponível para solucionar qualquer dúvida que possa ter. Nosso
+                    serviço é
+                    gratuito, portanto nós nunca iremos pedir pagamentos antecipados. Você só vai pagar seu empréstimo
+                    ou
+                    financiamento, diretamente para a Instituição Financeira, após receber o crédito.</p>
+        </footer>
+    </div>
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    </div>
 </body>
 
 </html>
